@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarif Ekle - Lezzetli Tarifler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Başlık kısmı -->
+    <header>
+        <h1>Tarif Ekle</h1>
+        <!-- Navigasyon Menüsü -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="add.recipe.html">Tarif Ekle</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Form alanı -->
+    <main>
+        <form id="tarifFormu">
+            <label for="isim">Tarif Adı:</label>
+            <input type="text" id="isim" name="isim" required>
+
+            <label for="resim">Resim URL'si:</label>
+            <input type="text" id="resim" name="resim" required>
+
+            <label for="aciklama">Açıklama:</label>
+            <textarea id="aciklama" name="aciklama" required></textarea>
+
+            <button type="submit">Tarifi Ekle</button>
+        </form>
+    </main>
+
+    <!-- Alt bilgi kısmı -->
+    <footer>
+        <p>&copy; 2023 Lezzetli Tarifler</p>
+    </footer>
+
+    <!-- JavaScript dosyasını ekliyoruz -->
+    <script src="app.js"></script>
+</body>
+</html>
